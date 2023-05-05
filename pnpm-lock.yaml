@@ -1,0 +1,20 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@go-task/cli':
+    specifier: 3.24.0
+    version: 3.24.0
+
+packages:
+
+  /@go-task/cli@3.24.0:
+    resolution: {integrity: sha512-FhShR3npNR69t7+AjTI7v9QLvQAj+VBJlS4AoF/O+xOFOvb3jYWVQzPy2+ZyH8ktUaZhMpQtAmx0B7qDjGCp1A==}
+    requiresBuild: true
+    dependencies:
+      '@go-task/go-npm': 0.1.17
+    dev: false
+
+  /@go-task/go-npm@0.1.17:
+    resolution: {integrity: sha512-j+xydQWrAxsqLYjweok1fWzDmBAA1g/gmFbPyG8kRI/d/+rzXGGLlro8zdS6mJ3Is+8BrIy2ZBmQkoONhowh7A==}
+    hasBin: true
+    dev: false
